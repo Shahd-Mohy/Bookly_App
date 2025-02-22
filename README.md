@@ -1,16 +1,49 @@
-# book_app
+<h1 align="center" style="font-weight: bold;">Bookly App📚</h1>
 
-A new Flutter project.
+### 🚀 Description 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Designed to revolutionize the reading experience by providing a clean and efficient interface for book lovers, Here what makes the app special:
 
-A few resources to get you started if this is your first Flutter project:
+• MVVM Architecture: Delivers a well-structured, maintainable, and scalable codebase.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+• State Management with BLoC (Cubit): Enhances performance and separates concerns effectively.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+• Google Books API Integration: Offers users access to an extensive collection of free books. 
+
+###  ⭐ System Design 
+
+    ├── /lib                
+        │── /core             
+        │── /errors                 
+        │── /utils   
+        │   ├── api_service.dart    
+        │   ├── app_router.dart   
+            ├── api_service.dart    
+        │   ├── app_router.dart     
+        │   ├── assets.dart         
+        │   ├── service_locator.dart
+        │   ├── styles.dart         
+    
+        │── /features               
+        │   │
+        │   ├── /home  
+        │   │   ├── /data
+        │   │   ├── /presentation
+        │   │
+        │   ├── /search             
+        │   │   ├── /data
+        │   │   ├── /presentation
+        │   ├── /splash             
+        ├── constants.dart   
+        │── main.dart  
+    
+
+###  🎨 Demo 
+
+https://github.com/user-attachments/assets/7d831aa6-40b5-4a02-b20c-6281c57dbcfc
+
+
+
+
+
